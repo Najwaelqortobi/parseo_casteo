@@ -5,13 +5,12 @@ window.onload = function() {
     }, 2000); // El pop-up aparecerá después de 2 segundos (2000 ms)
 }
 
-
-
-const caja=document.querySelector("buton");
-
 let cadena="3.14";
-
 function ejecutar(){
     let resultado=parseFloat(cadena);
     window.alert(typeof(resultado));
+}
+
+function closePopup() {
+    document.getElementById("myPopup").style.display = "none";
 }

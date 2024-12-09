@@ -11,12 +11,11 @@ function ejecutar() {
 
     // Verificar si el resultado es NaN
     if (isNaN(resultado)) {
-        window.alert(`El tipo de dato es: number y el valor es: NaN (no es un número válido)`);
+        window.alert(`El tipo de dato es: ${typeof(resultado)} y el valor es: NaN (no es un número válido)`);
     } else {
         window.alert(`El tipo de dato es: ${typeof(resultado)} y el valor es: ${resultado}`);
     }
 }
-
 
 // Bloque para cerrar el popup
 function closePopup() {

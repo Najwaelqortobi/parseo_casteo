@@ -66,3 +66,31 @@ h2 {
 .ejecutar:hover {
     background-color: #3c573d; /* Color ligeramente más oscuro al pasar el ratón */
 }
+
+.close {
+    color: #aaa;
+    display: flex;
+    justify-content: end;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover {
+    color: #000;
+}
+
+.button_principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 18rem;
+    button{
+    background-color: #4CAF50;
+    border-radius: 0.5rem;
+    }
+    a{   
+    padding: 2rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+}

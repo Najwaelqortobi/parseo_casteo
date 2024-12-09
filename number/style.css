@@ -79,3 +79,24 @@ h2 {
 .close:hover {
     color: #000;
 }
+
+#inputCadena{
+    margin: 2rem;
+    padding: 1.5rem;
+}
+
+.button_principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 21rem;
+    button{
+    background-color: #4CAF50;
+    border-radius: 0.5rem;
+    }
+    a{   
+    padding: 2rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+}
