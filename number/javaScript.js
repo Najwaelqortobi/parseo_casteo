@@ -7,6 +7,7 @@ window.onload = function() {
 
 function ejecutar() {
     let cadena = document.getElementById("inputCadena").value;
+    
     let resultado;
     switch (cadena) {
         case "3.14":
