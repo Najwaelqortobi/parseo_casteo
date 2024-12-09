@@ -6,28 +6,17 @@ window.onload = function() {
 }
 
 function ejecutar() {
-    let cadena = document.getElementById("inputCadena").value;
-    
-    let resultado;
-    switch (cadena) {
-        case "3.14":
-            resultado = Number(cadena);
-            window.alert(`El tipo de dato es: ${typeof(resultado)}`);
-            break;
-        case "123abc":
-            resultado = Number(cadena);
-            window.alert(`El tipo de dato es: ${typeof(resultado)} y el valor es: ${resultado} (NaN)`);
-            break;
-        case "15":
-            resultado = Number(cadena);
-            window.alert(`El tipo de dato es: ${typeof(resultado)} y el valor es: ${resultado}`);
-            break;
-        default:
-            resultado = Number(cadena);
-            window.alert(`El tipo de dato es: ${typeof(resultado)} y el valor es: ${resultado}`);
-            break;
+    let cadena = document.getElementById("inputCadena").value; // Obtener el valor del input
+    let resultado = Number(cadena); // Convertir la cadena a número
+
+    // Verificar si el resultado es NaN
+    if (isNaN(resultado)) {
+        window.alert(`El tipo de dato es: number y el valor es: NaN (no es un número válido)`);
+    } else {
+        window.alert(`El tipo de dato es: ${typeof(resultado)} y el valor es: ${resultado}`);
     }
 }
+
 
 // Bloque para cerrar el popup
 function closePopup() {
