@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif; /* Cambia la fuente general */
+    background-color: #f4f4f4; /* Color de fondo suave */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centra el texto */
+}
+
+h1 {
+    color: #141414; /* Color verde para el título */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+.global {
+    display: flex;
+    flex-direction: column; /* Coloca los botones uno debajo del otro */
+    align-items: center; /* Centra los botones horizontalmente */
+}
+
+.global button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.8rem 10rem;
+    max-width: 10rem;
+    background-color: #4CAF50; 
+    color: white; 
+    border: black;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.global button:hover {
+    background-color: #3c573d; /* Color ligeramente más oscuro al pasar el ratón */
+}
+
+.global a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: white;
+}
