@@ -4,28 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>parseInt</title>
+    <title>JSON To JavaScript</title>
 </head>
 
 <body>
     <h1>Parseo y Casteo</h1>
     <h2>ParseInt()</h2>
-    <p id="demo">Convierte una cadena a un número entero</p>
+    <p id="demo">Convierte una cadena a un número de punto flotante</p>
 
     <div id="myPopup" class="popup">
         <div class="popup-content">
             <span class="close" onclick="closePopup()">&times;</span>
-            <input type="text" id="inputCadena">
+            <p class="objeto">
+                const objetoJson= '{"nombre": "Ana", "edad": 30}';
+            </p>
             <div class="buton">
             <button class="ejecutar" onclick="ejecutar()">Ejecutar</button>
         </div>
     </div>
 </div>
-    <div>
-    </div>
-    <div class="button_principal">
-    <button><a href="../index.html">Home</a></button>
+
+<!--inicio Segundo popup-->
+<div id="myPopupJs" class="popupJs">
+    <div class="ObjetoConvertido">        
+        <p class="objetoJs">
+            const ObjetoJavaScript= {nombre: "Ana", edad: 30};
+        </p>
 </div>
+</div>
+<!--fin Segundo popup-->
+
+
+
+    <div class="button_principal">
+        <button><a href="../index.html">Home</a></button>
+    </div>
     <script src="javaScript.js"></script>
 </body>
 

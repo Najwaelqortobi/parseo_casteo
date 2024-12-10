@@ -67,6 +67,7 @@ h2 {
     background-color: #3c573d; /* Color ligeramente más oscuro al pasar el ratón */
 }
 
+
 .close {
     color: #aaa;
     display: flex;
@@ -79,10 +80,15 @@ h2 {
     color: #000;
 }
 
+#inputCadena{
+    margin: 2rem;
+    padding: 1.5rem;
+}
+
 .button_principal{
     display: flex;
     justify-content: center;
-    margin-top: 18rem;
+    margin-top: 21rem;
     button{
     background-color: #4CAF50;
     border-radius: 0.5rem;
@@ -93,9 +99,4 @@ h2 {
     color: white;
     font-size: 1.5rem;
 }
-}
-
-#inputCadena{
-    margin: 2rem;
-    padding: 1rem;
 }

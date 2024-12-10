@@ -7,15 +7,8 @@ window.onload = function() {
 
 function ejecutar() {
     let cadena = document.getElementById("inputCadena").value; // Obtener el valor del input
-    let resultado = Number(cadena); // Convertir la cadena a string
-
-    // Verificar si el resultado es NaN
-    if (isNaN(resultado)) {
-        window.alert(`El tipo de dato es: ${typeof(resultado)} y el valor es: NaN (no es un número válido)`);
-    } else {
-        window.alert(`El tipo de dato es: ${typeof(resultado)} y el valor es: ${resultado}`);
-    }
-}
+    let resultado = String(cadena); // Convertir la cadena a número
+    window.alert(`El tipo de dato es: ${typeof(resultado)}`)};
 
 // Bloque para cerrar el popup
 function closePopup() {

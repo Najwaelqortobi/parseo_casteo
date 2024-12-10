@@ -19,7 +19,7 @@ h2 {
     margin-top: 8rem;
 }
 
-.popup {
+.popup{
     display: none;
     position: fixed;
     top: 0; /* Cambiado a 0 para cubrir toda la pantalla */
@@ -41,7 +41,7 @@ h2 {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
 }
 
-.cadena {
+.objeto {
     color: black;
     text-align: center;
     font-size: 2rem; 
@@ -94,8 +94,29 @@ h2 {
     font-size: 1.5rem;
 }
 }
+.objetoConvertido{
+    display: none;
+    background-color: #3c573d;
+    width: 50%;
 
-#inputCadena{
-    margin: 2rem;
-    padding: 1rem;
+}
+
+.popupJs{
+    background-color: #fff; /* Fondo blanco para el contenido del pop-up */
+    margin-top: 10%;
+    margin-left: 38%;
+    margin-bottom: 5%;
+    padding: 2rem;
+    border-radius: 1.5rem; /* Bordes redondeados más suaves */
+    width: 100%;
+    max-width: 25rem;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+    display: none;
+}
+.objetoJs{
+    color: black;
+    text-align: center;
+    font-size: 2rem; 
+
 }
