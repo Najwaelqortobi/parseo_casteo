@@ -16,7 +16,6 @@ function ejecutar(){
     window.alert(`Tipo: ${typeof(resultado)}, ${tipo}, Valor: ${resultado}`);
 }
 
-
 function closePopup() {
     document.getElementById("myPopup").style.display = "none";
 }
