@@ -4,25 +4,31 @@ body {
     color: #333; 
     text-align: center; 
 }
-
 h1 {
     color: #141414; 
-    margin-bottom: 20px; 
+    margin-bottom: 50px; 
+    font-size: 3rem;
 }
+
 
 .global {
     display: flex;
     flex-direction: column; 
-    align-items: center; 
+    align-items: center;
+    position:absolute;
+    top: 20%;
+    left: 33%;
 }
 
 .global button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0.5rem;
+    top: 45%;
     padding: 0.8rem 10rem;
-    max-width: 10rem;
+    width: 40rem;
+    height: 4rem;
+    margin-block: 1rem;
     background-color: #4CAF50; 
     color: white; 
     border: black;
@@ -30,13 +36,14 @@ h1 {
     font-size: 1.5rem;
     cursor: pointer; 
     transition: background-color 0.3s ease; 
+    a{
+        text-decoration: none; 
+        color: white;
+        text-align: start;
+    }
 }
 
 .global button:hover {
     background-color: #3c573d; 
 }
 
-.global a {
-    text-decoration: none; 
-    color: white;
-}
