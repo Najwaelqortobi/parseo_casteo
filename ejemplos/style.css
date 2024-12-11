@@ -10,7 +10,7 @@ h1 {
     font-size: 3rem;
 }
 
-
+/*div global*/
 .global {
     display: flex;
     flex-direction: column; 

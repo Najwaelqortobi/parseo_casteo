@@ -17,7 +17,7 @@ function generarCodigoProducto() {
 
 
 /*Notas :
-//el primer paso seria convertir string a numeroInteger mediante parseInt()
+el primer paso seria convertir string a numeroInteger mediante parseInt()
 //el siguiente paso seria convertir nombre a String()
 //padStart(4, '0') agrega ceros al principio hasta que la longitud total de la cadena sea 4.
 //getFullYear(); esto devuelve la ultima parte de la fecha (Por ejemplo, si la fecha actual es 11 de diciembre de 2024, getFullYear() devolverá 2024)

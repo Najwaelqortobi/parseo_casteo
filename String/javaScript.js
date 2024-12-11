@@ -10,7 +10,7 @@ function ejecutar() {
     let resultado = String(cadena); // Convertir la cadena a número
     window.alert(`El tipo de dato es: ${typeof(resultado)}`)};
 
-// Bloque para cerrar el popup
+// Bloque para cerrar el popup//
 function closePopup() {
     document.getElementById("myPopup").style.display = "none";
 }

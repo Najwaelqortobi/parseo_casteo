@@ -9,7 +9,7 @@ let cadena="3.14";
 function ejecutar(){
     let resultado = parseFloat(cadena); // Convertir la cadena a float
 
-    // Verificar si es un float
+    // Verificar si es un float//
     let esFloat = resultado % 1 !== 0; // Si hay parte decimal
     let tipo = esFloat ? "float" : "entero"; // Determinar el tipo con ternario
 

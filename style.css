@@ -15,7 +15,7 @@ h1 {
     flex-direction: column; 
     align-items: center; 
 }
-
+/**/
 .global button {
     display: flex;
     justify-content: center;

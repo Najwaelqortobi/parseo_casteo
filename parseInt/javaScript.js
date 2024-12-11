@@ -19,7 +19,7 @@ function ejecutar() {
     window.alert(`Tipo: ${typeof(resultado)}, ${tipo}, Valor: ${resultado}`);
 }
 
-// Función para cerrar el popup
+// Función para cerrar el popup//
 function closePopup() {
     document.getElementById("myPopup").style.display = "none";
 }

@@ -16,7 +16,7 @@
         window.alert(`Tipo: ${typeof(resultado)}`);
     }
 
-    // Bloque para cerrar el popup
+    // Bloque para cerrar el popup//
     function closePopup() {
         document.getElementById("myPopup").style.display = "none";
         document.getElementById("myPopupJs").style.display="block";       

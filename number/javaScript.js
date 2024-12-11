@@ -17,7 +17,7 @@ function ejecutar() {
     }
 }
 
-// Bloque para cerrar el popup
+// Bloque para cerrar el popup//
 function closePopup() {
     document.getElementById("myPopup").style.display = "none";
 }
