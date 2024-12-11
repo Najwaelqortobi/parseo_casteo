@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Préstamo</title>
+</head>
+<body>
+    <h1>Calculadora de Préstamo</h1>
+    <form id="loanForm">
+        <label for="loanAmount">Monto del préstamo:</label>
+        <input type="text" id="loanAmount" placeholder="Ej: 10000"><br><br>
+
+        <label for="interestRate">Tasa de interés anual (%):</label>
+        <input type="text" id="interestRate" placeholder="Ej: 5.5"><br><br>
+
+        <label for="loanTerm">Plazo del préstamo (años):</label>
+        <input type="text" id="loanTerm" placeholder="Ej: 5"><br><br>
+
+        <button type="button" onclick="calcularPrestamo()">Calcular</button>
+    </form>
+
+    <p id="resultado"></p>
+
+   <script src="javaScript.js"></script>
+</body>
+</html>
