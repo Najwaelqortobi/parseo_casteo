@@ -4,6 +4,7 @@ function Persona(nombre, edad) {
 }
 
 //cuando se llama al toString en una instancia de persona se ejecutara esta funcion
+//hemos puesto toString aqui para sobrescribir el metodo toStringque devuelve [object Object]
 Persona.prototype.toString = function() {
     return `<span style="font-size: 1.5rem"> Nombre: ${this.nombre}<br> Edad: ${this.edad}</span>`;
 };
