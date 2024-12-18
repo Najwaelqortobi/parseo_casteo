@@ -21,4 +21,3 @@ function crearPersona() {
 }
 
 //prototype: para que las instancias de Persona hereden métodos y propiedades de persona incluido el metodo toString
-//

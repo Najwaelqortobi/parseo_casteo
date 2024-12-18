@@ -11,7 +11,7 @@ function ejecutar() {
 
     // Verificar si el resultado es NaN
     if (isNaN(resultado)) {
-        window.alert(`El tipo de dato es: ${typeof(resultado)}`);
+        window.alert(`NaN`);
     } else {
         window.alert(`El tipo de dato es: ${typeof(resultado)} y el valor es: ${resultado}`);
     }
@@ -22,4 +22,3 @@ function closePopup() {
     document.getElementById("myPopup").style.display = "none";
 }
 
-//

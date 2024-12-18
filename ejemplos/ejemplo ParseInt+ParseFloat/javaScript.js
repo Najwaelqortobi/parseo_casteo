@@ -20,5 +20,3 @@ function calcularPrestamo() {
 parseInt() se utiliza para el plazo del préstamo, ya que esperamos un número entero de años.*/
 //Math.pow() en JavaScript para calcular una potencia.
 //toFixed(2): Redondear un número a una cantidad específica de decimales//
-
-//
